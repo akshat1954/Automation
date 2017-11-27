@@ -3,6 +3,7 @@
 	<name>Automation_Nov</name>
 	<comment></comment>
 	<projects>
+		<project>Testing_Akshat</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
