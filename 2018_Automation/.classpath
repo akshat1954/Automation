@@ -20,5 +20,7 @@
 	<classpathentry kind="lib" path="C:/Users/aksha/workspace/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/aksha/workspace/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/aksha/workspace/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aksha/git_2018/2018_Automation/geckodriver-v0.19.1-win64.zip"/>
+	<classpathentry kind="lib" path="C:/Users/aksha/git_2018/2018_Automation/chromedriver_win32.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
