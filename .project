@@ -3,6 +3,9 @@
 	<name>Automation_Nov</name>
 	<comment></comment>
 	<projects>
+		<project>appcompat_v7</project>
+		<project>example</project>
+		<project>HackerRank</project>
 		<project>Testing_Akshat</project>
 	</projects>
 	<buildSpec>
