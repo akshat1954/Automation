@@ -3,6 +3,7 @@ package automation_2018;
 import static org.junit.Assert.*;
 import static org.testng.Assert.assertEquals;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
@@ -12,6 +13,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+
 
 public class Udemy_1 {
 	
@@ -29,7 +32,12 @@ public class Udemy_1 {
 	@Before
 	public void setUp() throws Exception {
 		driver = new FirefoxDriver();
-		System.setProperty("webdriver.gecko.driver", "D:\\Automation\\2018_Automation\\geckodriver-v0.19.1-win64\\geckodriver.exe");
+		
+		String path=System.getProperty("user.dir");
+		path=path.concat("/").concat("src").concat("/").concat("geckodriver.exe");
+		File file=new File(path);
+		
+		System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
 		baseUrl = "https://clusterdc.franconnect.net/fc/";
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
